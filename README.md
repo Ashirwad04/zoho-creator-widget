@@ -3,7 +3,7 @@
 A custom Zoho Creator Widget built to display and manage company assets in a visually appealing dashboard.
 
 ## 🖥️ Live Preview
-![Dashboard Preview](img.PNG)
+![Dashboard Preview](display.mp4)
 
 ## 📌 What it does
 - Displays asset categories as interactive cards on the Home dashboard
