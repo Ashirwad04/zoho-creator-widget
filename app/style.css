@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  background: #f5f6f8;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.dashboard {
+  width: 100%;
+  padding: 24px;
+  box-sizing: border-box;
+}
+
+/* Grid rows */
+.grid {
+  display: grid;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+/* First row */
+.grid-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* Second row */
+.grid-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/* Card container */
+.card {
+object-fit: contain;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.08);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.card:hover {
+  box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+  transform: translateY(-2px);
+}
+
+/* Image */
+.card img {
+  width: 190px;
+  max-width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+#head img{
+    width: 140px;
+  max-width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+
+#lice img{
+    width: 140px;
+  max-width: 100%;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+
+/* Title */
+.title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #0072f4;
+}
+
+

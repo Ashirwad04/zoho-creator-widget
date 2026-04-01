@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <script src=" https://js.zohostatic.com/creator/widgets/version/1.0/widgetsdk-min.js"></script>
+    <script src=" https://static.zohocdn.com/creator/widgets/version/2.0/widgetsdk-min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+
+
+<div class="dashboard">
+
+  <!-- Row 1 -->
+  <div class="grid grid-3">
+    <div class="card" onclick="openLaptopReport()" id="lap">
+      <img src="laptop02.png">
+      <div class="title">Laptop</div>
+    </div>
+
+    <div class="card" onclick="openMouseReport()">
+      <img src="mouse0.png">
+      <div class="title">Mouse</div>
+    </div>
+
+    <div class="card" id="head" onclick="openHeadphoneReport()">
+      <img src="h.jpg">
+      <div class="title">Headphone</div>
+    </div>
+  </div>
+
+  <!-- Row 2 -->
+  <div class="grid grid-2">
+    <div class="card" id="lice" onclick="openLicenseReport()">
+      <img src="lice.jpg" >
+      <div class="title">License</div>
+    </div>
+
+    <div class="card" onclick="openOtherReport()">
+      <img src="other.jpg">
+      <div class="title">Other</div>
+    </div>
+  </div>
+
+
+
+<script src="script.js"></script>
+
+</div>
+
+</body>
+</html>
